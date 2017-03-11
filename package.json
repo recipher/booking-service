@@ -1,0 +1,54 @@
+{
+  "name": "@recipher/booking-service",
+  "version": "0.0.0",
+  "description": "Booking services",
+  "main": "node index",
+  "scripts": {
+    "start": "node --harmony bootstrap",
+    "test": "node --harmony ./node_modules/.bin/gulp test"
+  },
+  "engines": {
+    "node": "4.x.x",
+    "npm": "2.x"
+  },
+  "author": "Johnny Hall",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:recipher/booking-service.git"
+  },
+  "dependencies": {
+    "@recipher/app": "^1.1.4",
+    "@recipher/authentication": "^1.0.1",
+    "@recipher/bootstrap": "^1.0.0",
+    "@recipher/bus": "^1.0.4",
+    "@recipher/configuration": "^1.0.0",
+    "@recipher/email": "^1.0.0",
+    "@recipher/errors": "^1.0.0",
+    "@recipher/log": "^1.0.0",
+    "@recipher/redis": "^1.0.1",
+    "@recipher/repl": "^1.0.0",
+    "@recipher/request": "^1.0.0",
+    "@recipher/server": "^1.2.0",
+    "@recipher/social": "^1.0.0",
+    "@recipher/socket": "^1.0.4",
+    "@recipher/store": "^1.1.5",
+    "@recipher/task": "^1.1.3",
+    "@recipher/utility": "^1.0.1",
+    "bluebird": "^3.0.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "@recipher/gulp": "^1.0.7",
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "gulp": "^3.9.0",
+    "mocha": "^2.2.5",
+    "nock": "^2.10.0",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.15.4",
+    "sinon-as-promised": "^4.0.0",
+    "sinon-chai": "^2.8.0",
+    "supertest": "^1.0.1"
+  }
+}
