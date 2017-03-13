@@ -37,6 +37,7 @@
     "@recipher/utility": "^1.0.1",
     "bluebird": "^3.0.0",
     "lodash": "^3.10.1",
+    "lodash.uniqby": "^4.7.0",
     "stripe": "^4.15.1"
   },
   "devDependencies": {
