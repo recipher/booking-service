@@ -22,6 +22,7 @@
     "@recipher/authentication": "^1.0.1",
     "@recipher/bootstrap": "^1.0.0",
     "@recipher/bus": "^1.0.4",
+    "@recipher/cache": "^1.1.0",
     "@recipher/configuration": "^1.0.0",
     "@recipher/email": "^1.0.0",
     "@recipher/errors": "^1.0.0",
@@ -39,6 +40,7 @@
     "csv": "^1.1.1",
     "lodash": "^3.10.1",
     "lodash.uniqby": "^4.7.0",
+    "qs": "^6.4.0",
     "stripe": "^4.15.1"
   },
   "devDependencies": {
