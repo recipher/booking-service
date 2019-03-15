@@ -1,6 +1,6 @@
 {
   "name": "@recipher/booking-service",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Booking services",
   "main": "node index",
   "scripts": {
